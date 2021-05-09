@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter Sentiment Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='dash.css') }}"
+    />
+  </head>
+
+  <body>
+    <div
+      class="contact-us"
+      style="
+        box-shadow: 15px 15px 1px #1565c0, 15px 15px 1px 2px black !important;
+      "
+    >
+      <h4 style="background-color: #42a5f5">Twitter Sentiment Analysis</h4>
+      <form action="/twitter" method="POST">
+        <input name="keyword" placeholder="Keyword" type="text" required />
+        <input
+          name="comments"
+          placeholder="No. of Comments"
+          type="text"
+          required
+        />
+        <button class="button" style="background-color: #42a5f5">
+          SHOW RESULTS
+        </button>
+      </form>
+    </div>
+    <a class="button" href="/">GO BACK</a>
+  </body>
+</html>
