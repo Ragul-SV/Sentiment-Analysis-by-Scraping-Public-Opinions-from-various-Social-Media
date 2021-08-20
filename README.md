@@ -35,12 +35,12 @@ requirement is to use PRAW reddit API.
 3. Comparative Study of Analysis  
 4. Creating a Web Application  
 
-1) Social Media Sentiment Analysis: Extract a given number of tweets related to a keywords from Twitter using Twitter’s API, Content from Reddit using Reddit’s API and also Wikipedia article and perform Sentiment Analysis on it.  
+**1) Social Media Sentiment Analysis:** Extract a given number of tweets related to a keywords from Twitter using Twitter’s API, Content from Reddit using Reddit’s API and also Wikipedia article and perform Sentiment Analysis on it.  
 For retrieving user comments from reddit we have used PRAW API. By specifying the keyword and number of comments to extract, the API can retrieve top comments from a reddit post related to that keyword. Similarly, for retrieving tweets from twitter, we have used tweepy API. This retrieved data is cleaned (removing punctuation and special symbols). We have used Snowball Stemmer to trim a word to its root(stem) form.  
 Then we apply the sentiment intensity analyzer function from the NLTK toolkit to the data and find out the polarity and subjectivity scores. Polarity Scores range from -1 to 1. If it is near to +1, then the sentence is positive. If it is near to -1, then the sentence is negative. If it is not near to either of them, then is it is classified as a neutral sentence.  
 This sentiment analyzer function decides the polarity scores by averaging the intensity
 of each word. This intensity can be found in the textblob word corpus. Finally, this
 result is stored in a Dataframe.  
-2) Visualize the Results: Visualize the results of the Analysis using pie-chart.  
-3) Comparative Study of Analysis: Compare the analysis results extracted from both the platforms and present the results.
-4) Creating a Web Application: Wrap the whole project with a Web Application. In the Home Page of the Web Application, two options are given (Reddit or Twitter), out of which one can be chosen which redirects to the dashboard. In the dashboard, two details are asked (the keyword and the number of comments to be extracted). When these details are entered the backend will run the python code and the sentiment analysis is done. This final dataframe is then displayed as a table in the result page along with a pie chart for visualization.  
+**2) Visualize the Results:** Visualize the results of the Analysis using pie-chart.  
+**3) Comparative Study of Analysis:** Compare the analysis results extracted from both the platforms and present the results.
+**4) Creating a Web Application:** Wrap the whole project with a Web Application. In the Home Page of the Web Application, two options are given (Reddit or Twitter), out of which one can be chosen which redirects to the dashboard. In the dashboard, two details are asked (the keyword and the number of comments to be extracted). When these details are entered the backend will run the python code and the sentiment analysis is done. This final dataframe is then displayed as a table in the result page along with a pie chart for visualization.  
