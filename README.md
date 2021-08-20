@@ -1,5 +1,6 @@
 # Sentiment-Analysis-of-Twitter-and-Reddit
 
+Problem Definition:
 To create a Web Application that which will do a comparative sentiment analysis by scraping public opinions from various Social Media.
 
 Sentiment Analysis is the understanding the emotion behind the text. This project emphasizes on classifying the natural language text based on how much of the text positive,
