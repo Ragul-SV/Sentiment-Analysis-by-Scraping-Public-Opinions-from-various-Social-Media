@@ -1,6 +1,6 @@
 # Sentiment-Analysis-of-Twitter-and-Reddit
 
-https://group29sentimentanalyser.herokuapp.com
+https://project-sentiment-analysis.herokuapp.com  
 
 ## Problem Definition:
 To create a Web Application that which will do a comparative sentiment analysis by scraping public opinions from various Social Media.
@@ -41,6 +41,9 @@ Then we apply the sentiment intensity analyzer function from the NLTK toolkit to
 This sentiment analyzer function decides the polarity scores by averaging the intensity
 of each word. This intensity can be found in the textblob word corpus. Finally, this
 result is stored in a Dataframe.  
+
 **2) Visualize the Results:** Visualize the results of the Analysis using pie-chart.  
-**3) Comparative Study of Analysis:** Compare the analysis results extracted from both the platforms and present the results.
+
+**3) Comparative Study of Analysis:** Compare the analysis results extracted from both the platforms and present the results.  
+
 **4) Creating a Web Application:** Wrap the whole project with a Web Application. In the Home Page of the Web Application, two options are given (Reddit or Twitter), out of which one can be chosen which redirects to the dashboard. In the dashboard, two details are asked (the keyword and the number of comments to be extracted). When these details are entered the backend will run the python code and the sentiment analysis is done. This final dataframe is then displayed as a table in the result page along with a pie chart for visualization.  
