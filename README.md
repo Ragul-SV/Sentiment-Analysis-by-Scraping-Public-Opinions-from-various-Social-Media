@@ -1,4 +1,4 @@
-# Sentiment-Analysis-of-Twitter-and-Reddit
+# Sentiment Analysis by Scraping Public Opinions from various Social Media
 
 https://project-sentiment-analysis.herokuapp.com  
 
